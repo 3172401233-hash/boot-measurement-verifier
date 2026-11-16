@@ -1,0 +1,14 @@
+{
+  "name": "boot-measurement-verifier",
+  "version": "0.1.0",
+  "description": "可信启动度量校验库：重放 PCR 事件日志、校验 nonce 绑定与 AK 签名",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
